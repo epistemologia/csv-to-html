@@ -134,7 +134,7 @@ def fecha_codigo_html(filename, codificacao):
     with open(filename, "a", encoding="utf-8") as f:
         f.write('<p style="font-size:x-small">Tabela criada a partir de arquivo CSV.')
         f.write(' O programa utilizado está disponível e documentado em <a href="https://github.com/epistemologia/csv-to-html/" target="_blank">')
-        f.write('https://github.com/epistemologia/csv-to-html/upload/main</a>; o uso é livre, inclusive para fins comerciais.  Não é preciso preservar esta linha de crédito autoral.</p>\n<hr>\n')
+        f.write('https://github.com/epistemologia/csv-to-html/</a>; o uso é livre, inclusive para fins comerciais.  Não é preciso preservar esta linha de crédito autoral.</p>\n<hr>\n')
         f.write('</body>\n</html>\n''')
 
 
